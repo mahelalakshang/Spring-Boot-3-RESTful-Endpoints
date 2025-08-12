@@ -1,8 +1,5 @@
 package com.mahelacode.todos.service;
 
-
-
-
 import com.mahelacode.todos.entity.Todo;
 import com.mahelacode.todos.entity.User;
 import com.mahelacode.todos.repository.TodoRepository;
