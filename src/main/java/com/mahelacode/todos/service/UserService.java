@@ -1,7 +1,12 @@
 package com.mahelacode.todos.service;
 
-import com.mahelacode.todos.entity.User;
+import com.mahelacode.todos.request.PasswordUpdateRequest;
+import com.mahelacode.todos.response.UserResponse;
 
 public interface UserService {
-    User getUserInfo();
+    UserResponse getUserInfo();
+
+    void deleteUser();
+
+    void updatePassword(PasswordUpdateRequest passwordUpdateRequest);
 }
